@@ -1,44 +1,78 @@
 package company.Phones;
 
+import company.PhoneDelete.PhoneDelete;
 import company.sample2.Sample2;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.List;
 
 
-public class Phones extends JFrame{
-    private JScrollBar scrollBar1;
-    private JTable table1;
+public class Phones extends JFrame {
+    private JTable table;
+    private JButton addButton;
+    private JButton editButton;
+    private JButton deleteButton;
+    private JPanel panel;
     private JButton button1;
     private JButton button2;
-    private JButton button3;
-    private JPanel panel;
 
-    public Phones(){
-        setTitle("Phones");
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(500, 300);
-        setContentPane(panel);
-        String[] columnNames = {"Surname", "Name", "Address","Number"};
-//        model = new DefaultTableModel(null, columnNames);
-//        table.setModel(model);
-        setLocationRelativeTo(null);
-        setVisible(true);
-//        button1.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                for (Enumeration<AbstractButton> buttons = color2.getElements(); buttons.hasMoreElements()😉 {
-//                    AbstractButton button = buttons.getNames();
-//                    if (button.isSelected()) {
-//                        label1.setText(button.getText());
-//                    }
-//                }
-//            }
-//        });
+    private DefaultTableModel model;
+
+    public static List<Phone> phones = new ArrayList<>();
+
+    static {
+        phones.add(new Phone("surname", "name", "address", "phone"));
+        phones.add(new Phone("surname", "name", "address", "phone"));
     }
+
+    public Phones() {
+        setTitle("Sample2");
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(500, 550);
+
+        String[] columnNames = {"Surname", "Name", "Address", "Number"};
+        model = new DefaultTableModel(null, columnNames);
+        for (Phone phone:phones)
+        model.addRow(new String[]{phone.getSurname(), phone.getName(), phone.getAddress(), phone.getNumber()});
+        table.setModel(model);
+
+        setContentPane(panel);
+        setLocationRelativeTo(null);
+        addMenu();
+        setVisible(true);
+
+        deleteButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                PhoneDelete dialog = new PhoneDelete();
+                dialog.setSize(300, 250);
+                dialog.setLocationRelativeTo(null);
+
+//dialog.pack();
+                dialog.setTitle("Вы уверены?");
+                dialog.setVisible(true);
+
+
+                /*
+                int row = table.getSelectedRow();
+                model.removeRow(row);
+                phones.remove(row);
+                System.out.println(Arrays.toString(phones.toArray()));
+
+                 */
+            }
+        });
+    }
+
+    public static void main(String[] args) {
+        Phones phones = new Phones();
+    }
+
     private void addMenu() {
         // create a menubar
         JMenuBar menuBar = new JMenuBar();
@@ -49,7 +83,7 @@ public class Phones extends JFrame{
         // create menuitems
         JMenuItem mAdd = new JMenuItem("Add");
         JMenuItem mEdit = new JMenuItem("Edit");
-        JMenuItem mDelete = new JMenuItem("Detele");
+        JMenuItem mDelete = new JMenuItem("Delete");
         JMenuItem mExit = new JMenuItem("Exit");
 
         // add menu items to menu
@@ -73,8 +107,6 @@ public class Phones extends JFrame{
 
     }
 
-    public static void main(String[] args) {
-        Phones phones = new Phones();
-    }
+
 }
 
