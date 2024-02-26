@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26471364-c566-4440-8732-f2e8f7fc3de1" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/glassfish_jaxb_runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/glassfish_jaxb_runtime1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ini4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_activation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_xml_bind_jaxb_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_xml_bind_jaxb_api1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/book.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/books.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ini/ReadIni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ini/WriteIni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serialize/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serialize/WriteReadPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/ReadTextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/ReadTextFileStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/WriteTextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xml/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xml/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xml/ReadXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xml/WriteXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Files_2.iml" afterDir="false" />
-    </list>
+    <list default="true" id="26471364-c566-4440-8732-f2e8f7fc3de1" name="Changes" comment="Updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,20 +54,7 @@
       <recent name="C:\Users\gk\IdeaProjects\Files_2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadXML">
-    <configuration name="ReadBinFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bin.ReadBinFile" />
-      <module name="Files_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WriteJSON">
     <configuration name="ReadXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xml.ReadXML" />
       <module name="Files_2" />
@@ -111,6 +74,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ini.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.WriteJSON" />
+      <module name="Files_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteJSON" />
         <item itemvalue="Application.ReadXML" />
         <item itemvalue="Application.WriteXML" />
         <item itemvalue="Application.WriteReadPerson" />
         <item itemvalue="Application.WriteIni" />
-        <item itemvalue="Application.ReadBinFile" />
       </list>
     </recent_temporary>
   </component>
