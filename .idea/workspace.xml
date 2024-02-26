@@ -54,13 +54,13 @@
       <recent name="C:\Users\gk\IdeaProjects\Files_2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteJSON">
-    <configuration name="ReadXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xml.ReadXML" />
+  <component name="RunManager" selected="Application.ReadJSON">
+    <configuration name="ReadJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json.ReadJSON" />
       <module name="Files_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xml.*" />
+          <option name="PATTERN" value="json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteIni" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ini.WriteIni" />
+    <configuration name="ReadXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xml.ReadXML" />
       <module name="Files_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ini.*" />
+          <option name="PATTERN" value="xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadJSON" />
         <item itemvalue="Application.WriteJSON" />
         <item itemvalue="Application.ReadXML" />
         <item itemvalue="Application.WriteXML" />
         <item itemvalue="Application.WriteReadPerson" />
-        <item itemvalue="Application.WriteIni" />
       </list>
     </recent_temporary>
   </component>
