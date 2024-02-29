@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26471364-c566-4440-8732-f2e8f7fc3de1" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/src/WebDAV/WebDAVYandex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/BuiltInExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nio/NioDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/ThrowsExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/UserExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/BuiltInExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/BuiltInExceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,20 @@
       <recent name="C:\Users\gk\IdeaProjects\Files_2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuiltInExceptions">
+  <component name="RunManager" selected="Application.UserExceptions (1)">
+    <configuration name="BuiltInExceptions (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.BuiltInExceptions" />
+      <module name="Files_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuiltInExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.BuiltInExceptions" />
       <module name="Files_2" />
@@ -76,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="log.LoggerDemo" />
+    <configuration name="ThrowsExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.ThrowsExceptions" />
       <module name="Files_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="log.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.NioDemo" />
+    <configuration name="UserExceptions (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.UserExceptions" />
       <module name="Files_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nio.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,25 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.ReadJSON" />
+    <configuration name="UserExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.UserExceptions" />
       <module name="Files_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="json.WriteJSON" />
-      <module name="Files_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="json.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserExceptions (1)" />
+        <item itemvalue="Application.UserExceptions" />
+        <item itemvalue="Application.ThrowsExceptions" />
         <item itemvalue="Application.BuiltInExceptions" />
-        <item itemvalue="Application.NioDemo" />
-        <item itemvalue="Application.LoggerDemo" />
-        <item itemvalue="Application.ReadJSON" />
-        <item itemvalue="Application.WriteJSON" />
+        <item itemvalue="Application.BuiltInExceptions (1)" />
       </list>
     </recent_temporary>
   </component>
